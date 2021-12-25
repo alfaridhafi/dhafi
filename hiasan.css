@@ -1,0 +1,128 @@
+/* (1) pengaturan body */
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+/* (2) pengaturan tagline a untuk universal */
+a {
+  text-decoration: none; /*efek garis pada kata atau kalimat*/
+}
+/* (3) pengaturan kelas container */
+.container {
+  width: 1170px;
+  padding: 0 15px; /*berfungsi untuk mengatur jarak elemen HTML dari dalam*/
+  margin: 0 auto; /* berfungsi untuk mengatur jarak elemen HTML dari luar*/
+  /* menghitung secara otomatis berdasarkan ruang yang tersisa di dalam wadah*/
+}
+/* (4) pengaturan kelas top-wrapperr */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(gambar.png);
+  background-size: cover; /*  memungkinkan gambar untuk memenuhi layar*/
+  color: white;
+  /* (13) pengaturan tulisan agar ke tengah semua */
+  text-align: center;
+}
+/* (5) pengaturan tagline h1 pada kelas top-wrapper  */
+.top-wrapper h1 {
+  opacity: 0.7; /* memungkinkan transparansi pada h1*/
+  font-size: 45px;
+  letter-spacing: 5px; /* mengatur spasi antar h1 */
+  margin-bottom: 10px;
+}
+/* (6) pengaturan tagline p pada kelas top-wrapper */
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+/* (7) pengaturan btn untuk universal */
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block; /* mengatur tampilan button, bisa ke samping/ ke bawah*/
+  opacity: 0.8;
+  /* (14) pengaturan border radius */
+  border-radius: 4px; /* mengatur kebulatan pada border */
+}
+/* (15) pengaturan btn agar ada opacity */
+.btn:hover /*suatu fungsi yang hanya berjalan apabila kursor berada diatas suatu objek tertentu */ {
+  opacity: 1;
+}
+
+/* (8) pengaturan btn pada signup */
+.signup {
+  background-color: #239b76; /* warna heksadesimal */
+  /* (23) pengaturan agar signup bisa 3d */
+  cursor: pointer; /* mengubah cursor agar menjadi lain */
+  box-shadow: 0 7px #1a7940; /* panjang, vertikal, warna */
+}
+/* (24) pengaturan signup agar bisa ditekan */
+.signup:active /* memberikan style ketika sebuah subjek telah terklik */ {
+  box-shadow: none; /*menambahkan bayangan ke element apapun */
+  position: relative; /* menurunkan signup agar di saat di tekan*/
+  top: 7px; /* kombinasikan dengan top */
+}
+
+/* (9) pengaturan btn pada facebook  */
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+/* (10) pengaturan btn pada twiter */
+.twitter {
+  background-color: #55acee;
+}
+
+/* (11) pengaturan kelas btn-wrapper   */
+.btn-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* (12) pengaturan tagline p  pada kelas btn  */
+.btn-wrapper p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* (16) pengaturan header unuk universal */
+header {
+  height: 65px;
+  width: 100%; /* mengukur lebar berdasarkan persen*/
+  background-color: rgba(34, 49, 52, 0.9); /* mengatur berdasarkan rgb*/
+  /* (25) pengaturan signup header agar selalu mengikuti */
+  position: fixed; /* memungkinan posisi nya agar selalu mengikuti */
+  top: 0;
+  z-index: 10; /* memungkinkan kita mengubah urutan tumpukan element */
+}
+/* (17) pengaturan logo untuk universal */
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+/* (18) pengaturan kelas header-left */
+.header-left {
+  float: left; /* mengatur letak element secara horizontal */
+}
+
+/* (19) pengaturan kelas header-right */
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  /* (22) pengaturan transition */
+  transition: all 0.5s; /*dapat digunakan untuk menambahkan animasi*/
+}
+
+/* (20) pengaturan kelas header-right saat di arahkan */
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* (21) pengaturan tagline a pada kelas header-right  */
+.header-right a {
+  line-height: 65px; /* untuk mengatur ketinggian kotak garis elemen */
+  padding: 0 20px;
+  color: white;
+  display: block;
+}

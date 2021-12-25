@@ -1,0 +1,39 @@
+/* (26) untuk hp */
+@media (max-width: 670px) {
+  /* (27) atur btn */
+  .btn {
+    width: 150px;
+    /* (32) untuk meratakan button */
+    display: block;
+    padding: 20px 120px;
+  }
+  /* (28) atur facebook */
+  .facebook {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  /* .header-right {
+    position: fixed;
+  } */
+
+  /* (29) atur top-wrapper */
+  .top-wrapper {
+    text-align: left;
+    padding-top: 130px;
+  }
+  /* (30) atur tagline h1 pada kelas top-wrapper  */
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 30%;
+    text-align: center;
+  }
+
+  /* (31) atur tagline p pada kelas top-wrapper */
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 30%;
+    text-align: center;
+  }
+}

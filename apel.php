@@ -1,0 +1,1 @@
+fruits = ['jeruk': 3]
